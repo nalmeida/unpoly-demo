@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="icon"
+		href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👍</text></svg>">
+
+	<link rel="stylesheet" href="https://unpkg.com/modesto@latest/modesto.min.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/unpoly.css">
+</head>
+
+<body>
+
+	<header>
+		<nav up-nav>
+			<a href="./index.html" up-target=".conteudo">Home</a>
+			<a href="./interna1.html"  up-target=".conteudo">Interna 1</a>
+		</nav>
+	</header>
+
+	<div class="demo">
+		<p>
+			👉 Demo de utilização do <a href="https://unpoly.com" rel="nofollow">Unpoly.js</a>
+		</p>
+	</div>
+
+	<div class="conteudo">
+		<h1>Home Page</h1>
+		<p>
+			<a href="./interna1.html" up-modal=".conteudo">Interna 1 num modal</a>
+		</p>
+		<p>
+			<a href="./interna1.html" up-drawer=".conteudo">Interna 1 num drawer</a>
+		</p>
+		<p>
+			<a href="./regulamento.html" up-modal=".conteudo">Regulamento num pop-up overlay</a>
+		</p>
+		<p>
+			<a href="./regulamento.html" up-tooltip="Veja o regulamento"  up-position="bottom">Regulamento Tooltip</a>
+		</p>
+
+		<form method="GET" action="./sucesso.html" up-target=".resposta" up-fallback=".erro">
+			<div class="erro"></div>
+			<p class="resposta">
+				Coloque abaixo o seu e-mail para receber nossa newsletter.
+			</p>
+			<label for="email">E-mail</label>
+			<input type="text">
+			<input type="submit" value="Enviar">
+		</form>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+			magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</div>
+
+
+	<script src="./assets/js/unpoly.js"></script>
+	<script>
+		up.log.disable()
+	</script>
+</body>
+
+</html>

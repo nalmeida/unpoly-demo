@@ -1,0 +1,38 @@
+header {
+	background-color: #ccc;
+	padding: 10px;
+}
+
+nav {
+	margin-bottom: 0;
+}
+nav a {
+	display: inline-block;
+	min-width: 80px;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.up-active {
+	background-color: yellow;
+}
+
+.up-current {
+	background-color: lightblue;
+	text-decoration: none;
+	border-bottom: 2px solid blue;
+}
+
+.erro {
+	color: red;
+}
+
+.demo {
+	margin-top: 1em;
+	background-color: #efefef;
+	border-radius: var(--border-radius);
+	padding:1em;
+}
+.demo p {
+	margin: 0;
+}
